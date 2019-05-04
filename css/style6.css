@@ -1,0 +1,167 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body{
+  background-color: #293c5d;
+}
+
+h1{
+  font-size: 400%;
+}
+
+h2{
+  font-size: 250%;
+  font-weight: lighter;
+}
+
+h3{
+  color: #000000;
+  font-size: 150%;
+}
+
+h5{
+  color: #000000;
+  font-size: 130%;
+}
+
+
+.header{
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-bottom: 10%;
+}
+
+p{
+  font-size: 105%;
+  color: #76828a;
+}
+
+.button1 button{
+  padding: 2% 5%;
+  background-color: #5e33df;
+  border: none;
+  font-size: 100%;
+}
+
+.button1 button:hover{
+  background-color: #734fdf;
+  cursor: pointer;
+}
+
+.button2 button{
+  padding: 5% 10%;
+  font-size: 100%;
+  background-color: #302f41;
+}
+
+.button2 button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none; 
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  padding-right: 5%;
+  padding-top: 10%;
+}
+
+.logo{
+  display: flex;
+}
+
+.logo img{
+  padding: 1% 1%;
+  width: 7%;
+  height: 7%;
+}
+
+.menu{
+  display: flex;
+  margin-left: 34%;
+}
+
+.menu a:hover{
+  color: #8260e6
+}
+
+header{
+  background-color: #35129d;
+}
+
+footer{
+  background-color: #000000;
+  display: flex;
+}
+
+.fallow{
+  padding: 10% 0 10% 5%;
+}
+
+.contacts{
+  padding: 10% 0 0 40%;
+}
+
+footer div div{
+  display: flex;
+}
+
+footer span{
+  border: 1px;
+  border-radius: 50%;
+  padding: 20px;
+  margin-right: 1%;
+  background-color: #5e33df;
+}
+
+footer span:hover{
+  background-color: #734fdf;
+}
+
+.shop{
+  width: 100%;
+  background-color: #555555;
+  display: flex;
+  margin: 5% 0;
+}
+
+.shop .img1{
+  background: url("../img/mt-1598-home-img-21.jpg") center;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+
+.shop .img2{
+  background: url("../img/mt-1598-home-img-22.jpg") center;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+
+.shop .button2{
+  margin: 50% 0 0 5%;
+}
+
+.shop .button2 button{
+  background-color: inherit;
+}
+
+.shop .button2 button:hover{
+  background-color: #ffffff;
+}
+
+.shop h5{
+  color: #ffffff;
+}
