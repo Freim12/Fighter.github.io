@@ -6,7 +6,8 @@
 }
 
 body{
-  background-color: #293c5d;
+  background-image: url("../img/fon.jpg");
+  background-size: cover;
 }
 
 h1{
