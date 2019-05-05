@@ -74,8 +74,8 @@ a{
 }
 
 ul{
-  padding-right: 5%;
-  padding-top: 10%;
+  margin-right: 5%;
+  margin-top: 10%;
 }
 
 .logo{
@@ -88,12 +88,12 @@ ul{
   height: 7%;
 }
 
-.menu{
+nav{
   display: flex;
-  margin-left: 34%;
+  margin-left: 40%;
 }
 
-.menu a:hover{
+nav a:hover{
   color: #8260e6
 }
 
@@ -165,6 +165,14 @@ footer span:hover{
 
 .shop h5{
   color: #ffffff;
+}
+
+.title{
+  display: none;
+}
+
+.menu{
+  width: 100%;
 }
 
 @media screen and (max-device-width: 768px){
