@@ -264,3 +264,9 @@ footer span:hover{
 
 
 }
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+}

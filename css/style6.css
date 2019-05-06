@@ -315,3 +315,15 @@ footer span:hover{
     margin: 0% 0 0 5%;
   }
 }
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .shop .button2{
+  margin: 30% 0 0 5%;
+}
+
+
+}

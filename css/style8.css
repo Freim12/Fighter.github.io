@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-  font-size: 400%;
+  font-size: 350%;
 }
 
 h2{
@@ -131,17 +131,17 @@ footer span:hover{
 }
 
 .LatestNews{
-  width: 92%;
-  margin: 5% 0 5% 2%;
+  width: 100%;
+  margin: 5% 0 5% 0%;
 }
 
 .LatestNews-body{
   display: flex;
+   width: 100%;
+  text-align: center;
 }
 
-.LatestNews-body div{
-  margin-right: 2%;
-}
+
 
 .LatestNews-body h4{
   font-size: 130%;
@@ -309,4 +309,34 @@ footer span:hover{
   .LatestNews-body div img{
     width: 100%;
   }
+}
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .LatestNews{
+  width: 100%;
+  margin: 5% 1% 5% 1%;
+}
+
+.LatestNews-head{
+  margin-bottom: 2%;
+}
+
+.LatestNews-body{
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.LatestNews-body h4{
+  font-size: 150%;
+}
+
+p{
+  font-size: 130%;
+  color: #76828a;
+}
 }

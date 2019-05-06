@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-  font-size: 400%;
+  font-size: 350%;
 }
 
 h2{
@@ -305,3 +305,14 @@ p{
     width: 100%;
   }
 } 
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .img{
+  margin-left: 10%;
+}
+}
+

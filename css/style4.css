@@ -464,3 +464,27 @@ footer span:hover{
 
   }
 }
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .body-matches div div h3{
+    color: #000000;
+    font-size: 300%;
+  }
+
+  p{
+    font-size: 130%;
+    color: #76828a;
+  }
+
+   h3{
+    font-size: 300%;
+   }
+
+  .body-result div .game h5{
+    font-size: 200%;
+  }
+}

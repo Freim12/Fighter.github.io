@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-  font-size: 400%;
+  font-size: 350%;
 }
 
 h2{
@@ -156,7 +156,8 @@ footer span:hover{
 }
 
 .pathners{
-  padding: 2% 2%;
+  text-align: center;
+  padding: 2% 0;
 }
 
 .pathners img{
@@ -228,6 +229,18 @@ footer span:hover{
 
 .menu{
   width: 100%;
+}
+
+.button2 button{
+  padding: 5% 10%;
+  font-size: 100%;
+  background-color: #302f41;
+}
+
+.button2 button:hover{
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
 }
 
 @media screen and (max-device-width: 768px){
@@ -397,4 +410,16 @@ footer span:hover{
     width: 100%;
     padding: 0 5%;
   }
+}
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .pathners img{
+  width: 10%;
+}
+
+
 }
