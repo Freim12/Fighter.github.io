@@ -169,6 +169,38 @@ footer span:hover{
   width: 100%;
 }
 
+
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .LatestNews{
+  width: 100%;
+  margin: 5% 1% 5% 1%;
+}
+
+.LatestNews-head{
+  margin-bottom: 2%;
+}
+
+.LatestNews-body{
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.LatestNews-body h4{
+  font-size: 150%;
+}
+
+p{
+  font-size: 130%;
+  color: #76828a;
+}
+}
+
 @media screen and (max-device-width: 768px){
   header{
     width: 100%;
@@ -309,34 +341,4 @@ footer span:hover{
   .LatestNews-body div img{
     width: 100%;
   }
-}
-
-@media screen and (min-width: 1250px){
-  .contacts{
-    margin-left: 20%;
-  }
-
-  .LatestNews{
-  width: 100%;
-  margin: 5% 1% 5% 1%;
-}
-
-.LatestNews-head{
-  margin-bottom: 2%;
-}
-
-.LatestNews-body{
-  width: 100%;
-  display: flex;
-  text-align: center;
-}
-
-.LatestNews-body h4{
-  font-size: 150%;
-}
-
-p{
-  font-size: 130%;
-  color: #76828a;
-}
 }

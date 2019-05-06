@@ -175,6 +175,21 @@ footer span:hover{
   width: 100%;
 }
 
+
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .shop .button2{
+  margin: 30% 0 0 5%;
+}
+
+
+}
+
+
 @media screen and (max-device-width: 768px){
   header{
     width: 100%;
@@ -314,16 +329,4 @@ footer span:hover{
     width: 100%;
     margin: 0% 0 0 5%;
   }
-}
-
-@media screen and (min-width: 1250px){
-  .contacts{
-    margin-left: 20%;
-  }
-
-  .shop .button2{
-  margin: 30% 0 0 5%;
-}
-
-
 }

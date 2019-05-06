@@ -243,6 +243,19 @@ footer span:hover{
   cursor: pointer;
 }
 
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .pathners img{
+  width: 10%;
+}
+
+
+}
+
 @media screen and (max-device-width: 768px){
   header{
     width: 100%;
@@ -410,16 +423,4 @@ footer span:hover{
     width: 100%;
     padding: 0 5%;
   }
-}
-
-@media screen and (min-width: 1250px){
-  .contacts{
-    margin-left: 20%;
-  }
-
-  .pathners img{
-  width: 10%;
-}
-
-
 }

@@ -264,6 +264,32 @@ footer span:hover{
   width: 100%;
 }
 
+
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+  .body-matches div div h3{
+    color: #000000;
+    font-size: 300%;
+  }
+
+  p{
+    font-size: 130%;
+    color: #76828a;
+  }
+
+   h3{
+    font-size: 300%;
+   }
+
+  .body-result div .game h5{
+    font-size: 200%;
+  }
+}
+
 @media screen and (max-device-width: 768px){
   header{
     width: 100%;
@@ -462,29 +488,5 @@ footer span:hover{
     margin-left: 0;
     margin: 0 0 0 10%;
 
-  }
-}
-
-@media screen and (min-width: 1250px){
-  .contacts{
-    margin-left: 20%;
-  }
-
-  .body-matches div div h3{
-    color: #000000;
-    font-size: 300%;
-  }
-
-  p{
-    font-size: 130%;
-    color: #76828a;
-  }
-
-   h3{
-    font-size: 300%;
-   }
-
-  .body-result div .game h5{
-    font-size: 200%;
   }
 }

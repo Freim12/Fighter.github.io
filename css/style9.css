@@ -163,6 +163,15 @@ footer span:hover{
   width: 100%;
 }
 
+
+
+@media screen and (min-width: 1250px){
+  .contacts{
+    margin-left: 20%;
+  }
+
+}
+
 @media screen and (max-device-width: 768px){
   header{
     width: 100%;
@@ -285,11 +294,4 @@ footer span:hover{
   .contact-info{
     display: block;
   }
-}
-
-@media screen and (min-width: 1250px){
-  .contacts{
-    margin-left: 20%;
-  }
-
 }
