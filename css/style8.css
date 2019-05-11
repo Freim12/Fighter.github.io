@@ -94,6 +94,7 @@ nav{
 }
 
 nav a:hover{
+  transition-duration: 0.5s;
   color: #8260e6
 }
 
@@ -127,6 +128,8 @@ footer span{
 }
 
 footer span:hover{
+  transition-duration: 1s;
+  cursor: pointer;
   background-color: #734fdf;
 }
 
@@ -148,6 +151,7 @@ footer span:hover{
 }
 
 .LatestNews-body h4:hover{
+  transition-duration: 1s;
   color: #8260e6;
   cursor: pointer;
 }
@@ -157,6 +161,7 @@ footer span:hover{
 }
 
 .LatestNews-body h5:hover{
+  transition-duration: 1s;
   color: #ffffff;
   cursor: pointer;
 }

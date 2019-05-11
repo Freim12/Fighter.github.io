@@ -49,6 +49,7 @@ p{
 }
 
 .button1 button:hover{
+  transition-duration: 1s;
   background-color: #734fdf;
   cursor: pointer;
 }
@@ -60,6 +61,7 @@ p{
 }
 
 .button2 button:hover{
+  transition-duration: 1s;
   background-color: #ffffff;
   color: #000000;
   cursor: pointer;
@@ -94,6 +96,7 @@ nav{
 }
 
 nav a:hover{
+  transition-duration: 0.5s;
   color: #8260e6
 }
 
@@ -127,6 +130,7 @@ footer span{
 }
 
 footer span:hover{
+  transition-duration: 1s;
   background-color: #734fdf;
 }
 

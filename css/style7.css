@@ -94,6 +94,7 @@ nav{
 }
 
 nav a:hover{
+  transition-duration: 0.5s;
   color: #8260e6
 }
 
@@ -127,6 +128,8 @@ footer span{
 }
 
 footer span:hover{
+  transition-duration: 1s;
+  cursor: pointer;
   background-color: #734fdf;
 }
 
